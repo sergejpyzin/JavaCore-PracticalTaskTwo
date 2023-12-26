@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,26 +10,17 @@ public class Main {
     }
 
     public static int countEvens(int[] someArray) {
-        int count = 0;
-        for (int j : someArray) {
-            if (j % 2 == 0) {
-                count++;
-            }
-        }
-        return count;
+        return (int) Arrays.stream(someArray)
+                .filter(i -> i % 2 == 0)
+                .count();
     }
 
     public static int diffMinMaxElements(int[] someArray) {
-        int minElem = someArray[0], maxElem = someArray[0], result = 0;
-        for (int i = 1; i < someArray.length; i++) {
-            if (someArray[i] < minElem) {
-                minElem = someArray[i];
-            } else if (someArray[i] > maxElem) {
-                maxElem = someArray[i];
-            }
-        }
-        result = maxElem - minElem;
-        return result;
+        // Преобразование массива в поток данных, нахождение минимального и максимального элементов
+        int minElem = Arrays.stream(someArray).min().orElse(0);
+        int maxElem = Arrays.stream(someArray).max().orElse(0);
+
+        return maxElem - minElem;
     }
 
     public static boolean hasAdjacentZeros(int[] someArray) {
