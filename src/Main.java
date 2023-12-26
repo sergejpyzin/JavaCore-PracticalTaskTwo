@@ -24,7 +24,7 @@ public class Main {
     }
 
     public static boolean hasAdjacentZeros(int[] someArray) {
-        if (someArray.length < 2 || someArray == null){
+        if (someArray == null || someArray.length < 2){
             return false;
         }
         for (int i = 0; i < someArray.length -1; i++){
