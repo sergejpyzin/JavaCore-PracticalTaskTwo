@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ae87e77-04a3-4c5c-800b-ca9837ad7acf" name="Changes" comment="created countEvens and diffMinMaxElements methods">
+    <list default="true" id="7ae87e77-04a3-4c5c-800b-ca9837ad7acf" name="Changes" comment="changed countEvens as added commit">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703606424331</updated>
-      <workItem from="1703606425345" duration="2207000" />
+      <workItem from="1703606425345" duration="2937000" />
     </task>
     <task id="LOCAL-00001" summary="start work and created Main.java">
       <option name="closed" value="true" />
@@ -70,7 +70,39 @@
       <option name="project" value="LOCAL" />
       <updated>1703608246153</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created hasAdjacentZeros methods">
+      <option name="closed" value="true" />
+      <created>1703608676959</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703608676959</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changed countEvens and diffMinMaxElements methods as lambda expression">
+      <option name="closed" value="true" />
+      <created>1703609010210</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703609010210</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changed hasAdjacentZeros">
+      <option name="closed" value="true" />
+      <created>1703609056332</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703609056332</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changed countEvens as added commit">
+      <option name="closed" value="true" />
+      <created>1703609329715</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703609329715</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +111,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start work and created Main.java" />
     <MESSAGE value="created countEvens and diffMinMaxElements methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="created countEvens and diffMinMaxElements methods" />
+    <MESSAGE value="created hasAdjacentZeros methods" />
+    <MESSAGE value="changed countEvens and diffMinMaxElements methods as lambda expression" />
+    <MESSAGE value="changed hasAdjacentZeros" />
+    <MESSAGE value="changed countEvens as added commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed countEvens as added commit" />
   </component>
 </project>

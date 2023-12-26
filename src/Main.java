@@ -1,21 +1,24 @@
+import java.net.ServerSocket;
 import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-        int[] arr = {2, 0, 0, 3, 4};
-        System.out.println(countEvens(arr));
+        int[] arr = {2, -6, 0, 3, 4, 0, 0, 9};
+        System.out.println(countEvensWithNull(arr));
+        System.out.println(countEvensWithoutNull(arr));
         System.out.println(diffMinMaxElements(arr));
         System.out.println(hasAdjacentZeros(arr));
     }
 
-    public static int countEvens(int[] someArray) {
+    public static int countEvensWithoutNull(int[] someArray) {
         return (int) Arrays.stream(someArray)
-    // Если считать ноль положительным числом
                 .filter(i -> i % 2 == 0)
-    /* Если читать ноль не положительным
+                .count();
+    }
+    public static int countEvensWithNull(int[] someArray) {
+        return (int) Arrays.stream(someArray)
                 .filter(i -> i != 0 && i % 2 == 0)
-     */
                 .count();
     }
 
