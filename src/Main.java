@@ -11,7 +11,11 @@ public class Main {
 
     public static int countEvens(int[] someArray) {
         return (int) Arrays.stream(someArray)
+    // Если считать ноль положительным числом
                 .filter(i -> i % 2 == 0)
+    /* Если читать ноль не положительным
+                .filter(i -> i != 0 && i % 2 == 0)
+     */
                 .count();
     }
 
