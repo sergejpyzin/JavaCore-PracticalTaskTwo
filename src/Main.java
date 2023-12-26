@@ -11,12 +11,15 @@ public class Main {
         System.out.println(hasAdjacentZeros(arr));
     }
 
-    public static int countEvensWithoutNull(int[] someArray) {
+    // Если считать ноль положительным
+    public static int countEvensWithNull(int[] someArray) {
         return (int) Arrays.stream(someArray)
                 .filter(i -> i % 2 == 0)
                 .count();
     }
-    public static int countEvensWithNull(int[] someArray) {
+
+    // Если считать ноль не положительным
+    public static int countEvensWithoutNull(int[] someArray) {
         return (int) Arrays.stream(someArray)
                 .filter(i -> i != 0 && i % 2 == 0)
                 .count();
